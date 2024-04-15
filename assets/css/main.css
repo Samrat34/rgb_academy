@@ -101,7 +101,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: var(--color-primary);
+    background: #1c2e3c;
     left: 0;
     right: 0;
     bottom: 0;
@@ -122,7 +122,7 @@ section {
     padding: 60px 0 60px 0;
     min-height: 20vh;
     position: relative;
-    background-color: var(--color-primary);
+    background-color: #1c2e3c;
 }
 
 .breadcrumbs .page-header h2 {
@@ -261,7 +261,7 @@ section {
 --------------------------------------------------------------*/
 
 .topbar {
-    background: #00796b;
+    background: #1c2e3c;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
@@ -313,7 +313,7 @@ section {
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #69c5c9;
+    background-color: #1c2e3c;
     ;
 }
 
@@ -380,7 +380,7 @@ section {
         font-family: var(--font-secondary);
         font-size: 16px;
         font-weight: 600;
-        color: rgba(255, 255, 255, 0.6);
+        color: rgb(255, 255, 255);
         white-space: nowrap;
         transition: 0.3s;
         position: relative;
@@ -398,7 +398,7 @@ section {
         height: 2px;
         bottom: -6px;
         left: 0;
-        background-color: var(--color-secondary);
+        background-color: #7aff97;
         visibility: hidden;
         width: 0px;
         transition: all 0.3s ease-in-out 0s;
@@ -425,8 +425,8 @@ section {
         z-index: 99;
         opacity: 0;
         visibility: hidden;
-        background: #fff;
-        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+        background: #1c2e3c;
+        box-shadow: 0px 0px 30px rgba(116, 221, 235, 0.25);
         transition: 0.3s;
         border-radius: 4px;
     }
@@ -438,7 +438,7 @@ section {
         font-size: 15px;
         text-transform: none;
         font-weight: 600;
-        color: #006a5d;
+        color: #ffffff;
     }
     .navbar .dropdown ul a i {
         font-size: 12px;
@@ -503,7 +503,7 @@ section {
         inset: 0;
         padding: 50px 0 10px 0;
         margin: 0;
-        background: rgba(0, 131, 116, 0.9);
+        background: #1c2e3c;
         overflow-y: auto;
         transition: 0.3s;
         z-index: 9998;
@@ -535,7 +535,7 @@ section {
     }
     .navbar .getstarted,
     .navbar .getstarted:focus {
-        background: var(--color-primary);
+        background: #1c2e3c;
         padding: 8px 20px;
         border-radius: 4px;
         margin: 15px;
@@ -544,7 +544,7 @@ section {
     .navbar .getstarted:hover,
     .navbar .getstarted:focus:hover {
         color: #fff;
-        background: rgba(0, 131, 116, 0.8);
+        background: #1c2e3c;
     }
     .navbar .dropdown ul,
     .navbar .dropdown .dropdown ul {
@@ -553,8 +553,8 @@ section {
         padding: 10px 0;
         margin: 10px 20px;
         transition: all 0.5s ease-in-out;
-        background-color: #007466;
-        border: 1px solid #006459;
+        background-color: #1c2e3c;
+        border: 1px solid #191f24;
     }
     .navbar .dropdown>.dropdown-active,
     .navbar .dropdown .dropdown>.dropdown-active {
@@ -590,7 +590,7 @@ section {
         content: "";
         position: fixed;
         inset: 0;
-        background: rgba(0, 106, 93, 0.8);
+        background: #1c2e3c;
         z-index: 9996;
     }
 }
@@ -678,7 +678,7 @@ section {
     border: 5px solid rgba(0, 131, 116, 0.7);
     top: -15%;
     left: -15%;
-    background: rgba(198, 16, 0, 0);
+    background: #1c2e3c;
 }
 
 .about .play-btn:after {
@@ -854,7 +854,7 @@ section {
     animation-timing-function: steps;
     opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(0, 131, 116, 0.7);
+    border: 5px solid #1c2e3c;
     top: -15%;
     left: -15%;
     background: rgba(198, 16, 0, 0);
@@ -1884,7 +1884,7 @@ section {
 .hero {
     width: 100%;
     position: relative;
-    background: var(--color-primary);
+    background: #1c2e3c;
     padding: 60px 0 0 0;
 }
 
@@ -1917,9 +1917,9 @@ section {
     border-radius: 50px;
     transition: 0.3s;
     color: #fff;
-    background: rgba(255, 255, 255, 0.1);
+    background: #1c2e3c;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(232, 255, 255, 0.1);
 }
 
 .hero .btn-get-started:hover {
@@ -1976,8 +1976,8 @@ section {
     padding: 60px 30px;
     position: relative;
     overflow: hidden;
-    background: #008d7d;
-    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+    background: #1c2e3c;
+    box-shadow: 0 0 10px 0 #ffffff;
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
@@ -2001,14 +2001,14 @@ section {
     margin-bottom: 20px;
     padding-top: 10px;
     display: inline-block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     font-size: 48px;
     line-height: 1;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .hero .icon-box:hover {
-    background: #009786;
+    background: #2f3f4b;
 }
 
 .hero .icon-box:hover .title a,
