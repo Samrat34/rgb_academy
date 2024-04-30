@@ -835,7 +835,7 @@ section {
     width: 94px;
     height: 94px;
     margin-bottom: 20px;
-    background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+    background: radial-gradient(var(--color-primary) 50%, rgba(8, 68, 61, 0.192) 52%);
     border-radius: 50%;
     display: inline-block;
     position: relative;
